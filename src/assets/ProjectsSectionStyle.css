@@ -1,0 +1,15 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-container{
+    margin: 20px;
+    padding: 10%;
+    flex-wrap: 0 0 40%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: black 0px 1px 1px;
+}

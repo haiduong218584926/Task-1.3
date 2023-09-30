@@ -1,0 +1,22 @@
+{
+    "ProjectsArray" : [
+        {
+            "id": 1,
+            "Title": "Project 1",
+            "About": "Task 1 project in SIT120: Introduction to Responsive Web Apps",
+            "Link": "https://github.com/haiduong218584926/Task-1.1"
+        },
+        {
+            "id": 2,
+            "Title": "Project 2",
+            "About": "Task 2 project in SIT120: Introduction to Responsive Web Apps",
+            "Link": "https://github.com/haiduong218584926/Task-1.2"
+        },
+        {
+            "id": 3,
+            "Title": "Project 3",
+            "About": "Task 3 project in SIT120: Introduction to Responsive Web Apps",
+            "Link": "https://github.com/haiduong218584926/Task-1.3"
+        }
+    ]
+}

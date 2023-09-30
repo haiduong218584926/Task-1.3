@@ -1,0 +1,82 @@
+img{
+    height: 20px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(221, 221, 221);
+    border-radius: 5%;
+}
+
+.container-one{
+    background-color: antiquewhite;
+    width: 30%;
+    padding: 5%;
+    border-radius: 5%;
+}
+
+.profile img{
+    height: 5rem;
+    border-radius: 50%
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+}
+
+.link img{
+    height: 4rem;
+}
+
+.container-two{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    margin: .5%;
+    width: 70%;
+}
+
+.about-me{
+
+    text-align: left;
+}
+
+.logos img{
+    height: 2rem;
+}
+
+.button-container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.projects-button {
+    background-color: rgb(182, 182, 182);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.projects-button a{
+    padding: 5px;
+    color: white;
+}
+
+.resume-button {
+    background-color:azure;
+    border-radius: 5px;
+}
+.resume-button a{
+    padding: 5px;
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-container{
+        width: 95%;
+    }
+}
