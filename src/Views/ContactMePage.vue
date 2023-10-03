@@ -3,26 +3,41 @@
         <form action="process_contact.php" method="post">
             <div class="form-container">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required> <br>
+            <input type="text" id="name" name="name" required v-model="name"> <br>
         </div>
         <div class="form-container">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required> <br>
+            <input type="email" id="email" name="email" required v-model="email"> <br>
         </div>
         <div class="form-container">
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="5" required></textarea> <br>
         </div>
         <div class="form-container">
-            <input type="submit" value="Submit">
+            <button @click = "Submit">submit</button>
         </div>
-
         </form>
     </div>
+    <div>
+        <h2 v-if="submitted === true"> Thank you {{ name }}, I have received your contact {{ email }}</h2>
+        <h2 v-else> I look forward to receiving your contact! </h2>
+    </div>
+
     <div class="home-button">
         <a href="/">Home</a>
     </div>
 </template>
+
+<script setup>
+    import { ref } from "vue";
+    const name = ref("")
+    const email = ref("")
+    const submitted = ref(false)
+
+    const Submit = () => {
+        submitted.value = true
+    }
+</script>
 
 <style scoped>
     .main-container{

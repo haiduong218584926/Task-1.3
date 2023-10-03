@@ -2,13 +2,13 @@
     <IntroContent/>
     <ProjectsSection/>
     <ContactMeSection/>
-  </template>
-  
-  <script>
+</template>
+
+<script>
   import IntroContent from '../components/IntroContent.vue'
   import ProjectsSection from '../components/ProjectsSection.vue'
   import ContactMeSection from '../components/ContactMeSection.vue'
-  
+
   export default {
     name: 'App',
     components : {
